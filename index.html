@@ -14,13 +14,19 @@
         <nav>
 
             <h1>
-                <a href="index.html">VJ Gabriel Branches</a>
+                <a href="index.html">VJ</a>
             </h1>
 
-            <label for="burger" class="label-burger">Menu</label>
             <input type="checkbox" name="burger" id="burger" class="burger">
 
-            <ul class="menu-header">
+            <label for="burger" class="label-burger">
+                <!-- Botão burger -->
+                <div class="lineburger lineburger1"></div>
+                <div class="lineburger lineburger2"></div>
+                <div class="lineburger lineburger3"></div>
+            </label>
+
+            <ul class="menu-header"  id="menu-links">
  
                 <li> <a href="#sec2" class="nav-link">Sobre</a> </li>
                 <li> <a href="#" class="nav-link">Fotos</a> </li>
@@ -42,6 +48,10 @@
 
     <main>
 
+        <a href="#" target="_blank" class="whats-link" title="Atendimento via WhatsApp">
+            <img src="img/whatsapp-icon.png" alt="WhatsApp" class="whats-img">
+        </a>
+
         <section class="landing-page">
 
             <h1>Contrate um VJ de qualidade!</h1>
@@ -52,9 +62,9 @@
 
         </section>
 
-        <section id="sec2" class="landing-page">
+        <section class="landing-page">
 
-            <h1>Contrate um VJ de qualidade!</h1>
+            <h1>Segunda seção</h1>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere doloremque? Eligendi dicta voluptatum deleniti esse rerum tenetur, iste eveniet qui perspiciatis. Numquam suscipit accusamus deserunt repellendus maiores tempore optio.</p>
 
@@ -63,6 +73,8 @@
         </section>
 
     </main>
+
+    <script src="script.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
